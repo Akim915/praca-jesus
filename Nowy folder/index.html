@@ -1,37 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Statystyki Strony</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="container">
         <h1>Statystyki Strony</h1>
 
-       
         <p>Laczna liczba odwiedzin: <span id="visit-count">0</span></p>
-
-        
         <p>Liczba klikniec: <span id="click-count">0</span></p>
 
-        
-        <h2>Historia wejsc i kliknięc:</h2>
+        <h2>Historia wejsc i klikniec:</h2>
         <ul id="session-list"></ul>
 
-      
         <button id="click-button">Kliknij mnie!</button>
 
-        
+        <h2>Czas od ostatniej wizyty:</h2>
+        <p id="time-since-last">Jeszcze nie odwiedzono strony</p>
+
         <div class="reset-buttons">
             <button id="reset-all">Resetuj wszystkie dane</button>
             <button id="reset-visits">Resetuj liczbe odwiedzin</button>
             <button id="reset-clicks">Resetuj klikniecia tej sesji</button>
         </div>
-        
+
         <p>Ostatnia wizyta: <span id="last-visit"></span></p>
     </div>
 
-    <script src="script.js"></script>
+    <script src="js.js"></script>
 </body>
-</html>
+</html> 
